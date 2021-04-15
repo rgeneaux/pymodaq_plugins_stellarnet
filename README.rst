@@ -1,11 +1,6 @@
-# PyMoDAQ Plugins
+Custom Plugin to use StellarNet spectrometers in Pymodaq.
 
-PyMoDAQ, Modular Data Acquisition with Python, is a set of **python** modules used to perform automated measurements. 
+Allows basic functionalities and options for integration time, data smoothing, averaging, and timing.
 
-This repository contains various hardware plugins compatible with PyMoDAQ
-
-For an exhaustive list of the available plugins, see https://github.com/CEMES-CNRS/pymodaq_plugin_manager/blob/main/pymodaq_plugin_manager/doc/PluginList.md
-
-GitHub repo: https://github.com/CEMES-CNRS
-
-Documentation: http://pymodaq.cnrs.fr/
+/!\ Uses pyusb version 1.0.0b1 or earlier - haven't tested for later versions.
+Tested on widows 10 with WinUSB (v6.1.7600.16385)
